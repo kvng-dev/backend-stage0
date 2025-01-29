@@ -1,6 +1,4 @@
-HNG12 Stage 0 API
-
-Project Description
+#Project Description
 
 This is a simple public API developed for HNG12 Stage 0. The API returns basic information in JSON format, including:
 
@@ -30,18 +28,18 @@ Steps to Run Locally
 
 Clone the repository:
 
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+      git clone https://github.com/yourusername/your-repo.git
+      cd your-repo
 
 Install dependencies:
 
-npm install
+    npm install
 
 Start the server:
 
-node server.js
+    node server.js
 
-The server will run on http://localhost:3000/.
+The server will run on http://localhost:3001/.
 
 API Documentation
 
@@ -51,11 +49,11 @@ GET <your-deployed-url>
 
 Response Format (200 OK)
 
-{
-  "email": "your-email@example.com",
-  "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/your-repo"
-}
+    {
+      "email": "your-email@example.com",
+      "current_datetime": "2025-01-30T09:30:00Z",
+      "github_url": "https://github.com/yourusername/your-repo"
+    }
 
 Deployment
 
@@ -71,4 +69,4 @@ Author
 
 Your Name
 
-GitHub: yourusername
+GitHub: kvng-dev
