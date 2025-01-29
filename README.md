@@ -19,14 +19,14 @@ Prerequisites
 Ensure that you have Node.js installed on your system. You can download it from here.
 Steps to Run Locally
 
-    Clone the repository:
+Clone the repository:
 
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+    git clone https://github.com/yourusername/your-repo.git
+    cd your-repo
 
 Install dependencies:
 
-npm install
+    npm install
 
 Start the server:
 
@@ -41,24 +41,24 @@ Endpoint
 
 Response Format (200 OK)
 
-{
-  "email": "your-email@example.com",
-  "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/your-repo"
-}
+        {
+          "email": "your-email@example.com",
+          "current_datetime": "2025-01-30T09:30:00Z",
+          "github_url": "https://github.com/yourusername/your-repo"
+        }
 
 Deployment
 
 This API is deployed on [Platform Name]. You can access the live version at:
 
-    [Your Live API URL]
+       https://stage0-fwpofh86p-oghuanlankingsleys-projects.vercel.app/
 
 License
 
 This project is open-source and available under the MIT License.
 Author
 
-    Your Name
+    Oghuanlan Kingsley
     GitHub: kvng-dev
 
 details.
